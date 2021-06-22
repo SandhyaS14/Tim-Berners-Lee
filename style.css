@@ -8,7 +8,7 @@ body{
     border-radius: 50%;
     height: 150px;
 }
-#welcome{ 
+#Welcome{ 
     position: absolute;
     overflow: hidden;
     height: 800px;
@@ -49,7 +49,7 @@ h2 {
     font-family: monospace;
 }
 
-#bio {
+#Bio {
 
     padding: 50px;
     text-align: center;
@@ -92,7 +92,39 @@ p {
 }
 
 
+
+#Videos {
+    text-align: center;
+
+}
+
+
+#Work {
+    text-align: center;
+}
+
+
+#Writings {
+    text-align: center;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
 .menuchoices:hover{
     font-size: 25px;
     background-color: springgreen;
+}
+
+
+.articles.hover {
+    color: turquoise;
 }
